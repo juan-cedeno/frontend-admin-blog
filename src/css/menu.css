@@ -1,0 +1,38 @@
+.cont-menu {
+    display: flex;
+    align-items: center;
+    /* background-color: black; */
+    border-bottom: 1px solid #dbdbdb;
+    height: 60px;
+}
+header {
+    display: flex;
+    flex: 1;
+}
+header > a {
+    text-decoration: none;
+    margin: 0px 20px;
+    padding: 14px 29px;
+    color: black;
+}
+header > a:hover {
+    background-color: #FDC00C;
+    border-radius: 8px;
+}
+.social {
+    display: flex;
+    align-items: center;
+}
+.social img {
+    width: 29px;
+    margin: 0px 13px
+}
+
+.logout {
+    border: none;
+    background-color: transparent;
+    color: #817878;
+    margin: 0px 40px;
+    outline: none;
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.btn-blog-add {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogs {
+    display: flex;
+}
+.name-url-blog {
+    display: flex;
+    flex: 1;
+}
+.name-url-blog > a {
+    text-decoration: none;
+}
+.name-url-blog p {
+    color: black;
+    text-transform: capitalize;
+}
+.blog-text {
+    color: #666666;
+    max-width: 450px;
+    text-transform: capitalize;
+    font-size: 20px;
+    background-color: #BBEFFD;
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+.btn-blog > button {
+    padding: 7px 21px;
+    margin: 0px 16px;
+    border-radius: 3px;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+}

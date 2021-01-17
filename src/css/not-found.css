@@ -1,0 +1,16 @@
+.cont-not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.cont-not-found  img {
+    border-radius: 10px;
+}
+.cont-not-found button {
+    padding: 10px 50px;
+    margin: 0px 30px;
+    background-color: #FDC00C;
+    border: none;
+    border-radius: 5px;
+}

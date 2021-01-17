@@ -1,7 +1,13 @@
 .cont-menu {
+    background-color: #FFFFFF;
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+    top: 0;
+}
+.cont-menu {
     display: flex;
     align-items: center;
-    /* background-color: black; */
     border-bottom: 1px solid #dbdbdb;
     height: 60px;
 }
